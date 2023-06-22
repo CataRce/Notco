@@ -1,24 +1,45 @@
 <!DOCTYPE html>
 <html lang="Es">
+    
 <head>
+    <link href="CSS/estiloscss.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sitio NotCo</title>
 </head>
+    
 <body>
     <div class="head">
-        <div class="logo">
-        <a href="#">Logo</a>
-        </div>
-        <nav class="navbar">
-            <a href="#">Home</a>
-            <a href="/productos.html">Nuestros productos</a>
+      <nav class="navbar">
+
+        <a href="#"> <img src="imagenes/NotCo_logo.jpg" width="10%" height= "auto" align="left" alt="logo" href="#" href="#"></a>
+    
+        <div class="dropdown">
+          <button>Nuestros productos</button>
+            <div class="dropdown-content">
+            <a href="NotCheese">Not Cheese</a>
+            <a href="NotMilk">NotMilk</a>
+            <a href="NotChicken">Not Chicken</a>
+            <a href="NotBurguer">Not Burger</a>
+            <a href="NotBurguer">Not Meat</a>
+            <a href="NotMayo">Not Mayo</a>
+            <a href="NotIceCream">Not Ice Cream</a>
+            </div>
+          </div>
+          
             <a href="#">Nosotros</a>
             <a href="#">Novedades</a>
-            <a href="#">Recetas</a>
+           
+         <div class="dropdown">
+           <button>Recetas</button>
+          </div>
+
             <a href="#">Dónde comprar</a>
             <a href="#">Contacto</a>
-            <a href="#">Perfil de Usuario</a>
+            <a href="#">Perfil de Usuario</a> 
+
+          
             <form action="../../form-result.php" method="post" target="_blank">
                 <p>
                   <input type="search" name="busquedaproducto" placeholder="Notproduct">
