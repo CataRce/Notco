@@ -55,3 +55,8 @@ p {
 	text-align: justify;
 }
 
+table, th, td {
+  border:0px solid black;
+}
+
+
