@@ -76,3 +76,29 @@ table, th, td {
   padding: 20px;
 
 }
+contenedor-ig{
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-flow: wrap;
+}
+.imagen1{
+  width: 20%;
+  height: 300px;
+  display: 20%;
+  box-sizing: border-box;
+}
+img{
+  border-radius: 5%;
+}
+p{
+  margin-left: 25px;
+}
+h2{
+  text-align: center;
+}
+h3{
+  color: dimgray;
+}
